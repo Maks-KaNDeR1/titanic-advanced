@@ -1,0 +1,14 @@
+.button {
+    cursor: pointer;
+    height: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #CA1612;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+
+    &:disabled {
+        opacity: .6;
+    }
+}
